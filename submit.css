@@ -41,9 +41,11 @@ html , body {
    }
     footer{
         position: absolute;
-        top: 90%;
+        top: 100%;
         left: 40%;
         transform: translate(-50%,-50%);
+        border-radius: 20%;
+        padding: 20px;
     }
     
 
@@ -53,7 +55,8 @@ html , body {
         margin-bottom: 20px;
         border-bottom: 5px solid red;
         width: 200px;
-
+        border-left: solid 5px red;
+        border-radius: 20%;
     }
     .bb input{
 
@@ -61,6 +64,22 @@ html , body {
         outline: none;
         background: transparent;
         color: #fff;
-        border-bottom: 5px solid whitesmoke;
+        border-bottom: 5px solid #fff;
+        border-left: 4px solid rgb(252, 7, 7);
+        border-radius: 20%;
 
     }
+    .but {
+
+        background-color: black;
+        color: blanchedalmond;
+        border-radius: 10%;
+        max-width: 500%;
+    }
+ .but:hover{
+
+    box-shadow: 0 2px 15px rgb(255, 254, 254);
+    cursor: pointer;
+    background-color: seagreen;
+    border-radius: 20px;
+ }

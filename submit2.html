@@ -18,10 +18,32 @@
             padding: 100px;
             background-position: center;
             color: #fff;
-            
-           
-        
         }
+        .bb-b input {
+
+            outline: none;
+            border: none;
+            background: transparent;
+            color:  white;
+            border-bottom: 3px solid white;
+            border-left: 5px solid rgb(28, 191, 255);
+            border-radius: 20%;
+
+        }
+
+        .footer{
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+            color: white;
+            border-radius: 5px;
+
+        }
+        .footer:hover{
+            box-shadow: 0 2px 15px rgb(21, 182, 231);
+            background-color: skyblue;
+            border-radius: 20%;
+        }
+
        
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -41,11 +63,14 @@
                
                 <i class="fa fa-key" aria-hidden="true"></i><input type="password" id="pw" required placeholder="re-enter password">
             </div><br>
-            <button>Submit</button>
+            <button  class="footer">Submit</button>
         <div>
             <p id='result'></p>
         </div>
+    
             <script src="./submit.js"></script>
+        
+           
         
             
         </form>
