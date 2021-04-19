@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserName and password</title>
+    <style>
+        .main{
+            background-image: none;
+            
+            border-radius: 10%;
+            max-width: 350px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 100px;
+            background-position: center;
+            color: #fff;
+            
+           
+        
+        }
+       
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style=" background-image: url(./Hacker\ Background\ 1.jpg);">
+    <div class="main">
+        <form onsubmit="return SU()">
+            <div class="bb-b" style="background: transparent;">
+                <i class="fa fa-user-o" aria-hidden="true"></i><input type="text" id="username" required placeholder="Username"><br>
+            </div><br>
+            <div class="bb-b">
+               
+                <i class="fa fa-key" aria-hidden="true"></i><input type="password" id="pswd" required placeholder="Create a password"><br>
+            </div><br>
+            <div class="bb-b">
+               
+                <i class="fa fa-key" aria-hidden="true"></i><input type="password" id="pw" required placeholder="re-enter password">
+            </div><br>
+            <button>Submit</button>
+        <div>
+            <p id='result'></p>
+        </div>
+            <script src="./submit.js"></script>
+        
+            
+        </form>
+        
+        
+    </div>
+    
+</body>
+</html>

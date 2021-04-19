@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html , body {
+    margin : 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+        .main{
+            background:none;
+            border-radius: 10%;
+            color: rgb(253, 251, 251);
+            background-position: center;
+            padding: 50px;
+            
+            
+
+            
+            
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(./@@@@.jpg);
+            background-size: 100%;
+            background-repeat: repeat-y;
+            
+          
+            
+        }
+   form{
+    max-width: 350px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   }
+    footer{
+        position: absolute;
+        top: 90%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+    
+
+    
+    .bb-title{
+
+        margin-bottom: 20px;
+        border-bottom: 5px solid red;
+        width: 200px;
+
+    }
+    .bb input{
+
+        border: none;
+        outline: none;
+        background: transparent;
+        color: #fff;
+        border-bottom: 5px solid whitesmoke;
+
+    }
