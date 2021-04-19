@@ -83,3 +83,12 @@ html , body {
     background-color: seagreen;
     border-radius: 20px;
  }
+.bb select{
+    border: none;
+        outline: none;
+        background: transparent;
+        color: #fff;
+        border-bottom: 5px solid #fff;
+        border-left: 4px solid rgb(252, 7, 7);
+        border-radius: 20%;
+}

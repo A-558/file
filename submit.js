@@ -9,12 +9,12 @@ function SU(){
 
    
 
-    if( password=='2233445566'){
+    if( password=='12345'){
         document.getElementById('result').innerHTML = 'sussesfully singned up'
         document.getElementById('result').style.color = ' green';
         console.log('sucessfully signed up');
     }
-    else if(  repassword!= '2233445566'){
+    else if(  repassword!= '12345'){
         document.getElementById('result').innerHTML = 'plz check the repassword';
         document.getElementById('result').style.color = 'red';
 
